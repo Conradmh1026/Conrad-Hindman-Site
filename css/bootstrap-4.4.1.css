@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -8190,8 +8190,7 @@ button.bg-dark:focus {
   margin-right: 1rem !important;  
   max-wdth: 150px;
   max-height: 150px;
-  border-radius: 50%;
-}
+ }
 
 .mb-3,
 .my-3 {
