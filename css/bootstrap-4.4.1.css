@@ -10230,9 +10230,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .gallery-img {
   width: 100%;
-  height: 250px;      /* same height for all images */
-  object-fit: cover;  /* crop instead of stretch */
+  height: auto;           /* let image keep aspect ratio */
+  object-fit: contain;    /* never crop */
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 1rem;
 }
+
+
 
 
 /*# sourceMappingURL=bootstrap.css.map */
